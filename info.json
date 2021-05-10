@@ -1,5 +1,5 @@
 {
-	"database":"TestAlani",
-	"collection":"reports",
-	"filePath":"D:\\Programlama\\Python\\10. csv2mongo\\Data"
+	"database":"database_name",
+	"collection":"collection_name",
+	"filePath":"D:\\file1\\file2\\file3\\Data"
 }
