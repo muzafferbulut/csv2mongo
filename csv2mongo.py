@@ -31,7 +31,7 @@ for file in range(len(files)):
         
         dataRow = data[row]
         
-        DataDict = dict(zip(listColumns, dataRow))
+        DataDict = dict(zip(columns, dataRow))
         
         collection.insert(DataDict)
 
