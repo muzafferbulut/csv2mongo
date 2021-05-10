@@ -24,12 +24,11 @@ for file in range(len(files)):
     csvFile = pd.read_csv(fileName)
     
     [x,y] = csvFile.shape
-    columns = csvFile.columns
+    columns = list(csvFile.columns)
     data = csvFile.values
     
     for row in range(x):
         
-        listColumns = list(columns)
         dataRow = data[row]
         
         DataDict = dict(zip(listColumns, dataRow))
